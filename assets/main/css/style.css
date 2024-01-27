@@ -1,0 +1,87 @@
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/main/fonts/roboto-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('assets/main/fonts/roboto-v30-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+ /* ############################################# Home page section begin #############################################  */
+
+
+.d_text {
+  color: #fff;
+  font-family: "Roboto", sans-serif , serif;
+  font-weight: 700;
+}
+
+.home {
+  background: #27323E;
+  height: 90vh;
+}
+
+.custom_btn1 {
+  width: 150px;
+  height: 50px;
+  background: #F7B733;
+  border-radius: 50px 50px 50px 0px;
+}
+
+.custom_btn1:hover {
+  background: #F7B733;
+  color: #fff;
+}
+
+.main_title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 72px;
+}
+
+.main_title_text {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.custom_btn {
+  width: 200px;
+  height: 50px;
+  background: #F7B733;
+  border-radius: 50px;
+}
+.custom_btn:hover {
+  background: orange;
+  color: #fff;
+}
+
+ /* ############################################# Home page section end ############################################# */
+
+ /* ############################################# About page section begin ############################################# */
+.about {
+  background: #212529;
+  height: 70vh;
+}
+
+.about_title {
+  font-weight: 700;
+  font-size: 50x;
+}
+
+.about_title_text {
+  font-weight:700px;
+  font-size:22px;
+}
+
+
+
+ /* ############################################# About page section end ############################################# */
+
