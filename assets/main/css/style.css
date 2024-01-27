@@ -26,18 +26,17 @@
 
 .home {
   background: #27323E;
-  height: 90vh;
 }
 
 .custom_btn1 {
   width: 150px;
   height: 50px;
-  background: #F7B733;
+  background: linear-gradient(109deg, #FC4A1A -29.1%, #F7B733 97.76%);
   border-radius: 50px 50px 50px 0px;
 }
 
 .custom_btn1:hover {
-  background: #F7B733;
+  background: linear-gradient(109deg, #F7B733 -29.1%, #FC4A1A 97.76%);
   color: #fff;
 }
 
@@ -55,11 +54,11 @@
 .custom_btn {
   width: 200px;
   height: 50px;
-  background: #F7B733;
   border-radius: 50px;
+  background: linear-gradient(109deg, #FC4A1A -29.1%, #F7B733 97.76%);
 }
 .custom_btn:hover {
-  background: orange;
+  background: linear-gradient(109deg, #F7B733 -29.1%, #FC4A1A 97.76%);
   color: #fff;
 }
 
@@ -68,7 +67,6 @@
  /* ############################################# About page section begin ############################################# */
 .about {
   background: #212529;
-  height: 70vh;
 }
 
 .about_title {
@@ -80,7 +78,6 @@
   font-weight:700px;
   font-size:22px;
 }
-
 
 
  /* ############################################# About page section end ############################################# */
