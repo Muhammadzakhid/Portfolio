@@ -17,6 +17,11 @@
 
  /* ############################################# Home page section begin #############################################  */
 
+ * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
 
 .d_text {
   color: #fff;
@@ -94,6 +99,10 @@
   background: #212529;
 }
 
+.portfolio_mb {
+  background: #212529;
+}
+
 
  /* ############################################# Portfolio page section end ############################################# */
 
@@ -103,12 +112,119 @@
   background: #27323E;
 }
 
+.blogs_mb {
+  background: #27323E;
+}
+
 .blog_imgs {
   transform: rotate(45deg);
 }
 
  /* ############################################# Blogs page section end ############################################# */
 
+ /* ############################################# Contacts page section section ############################################# */
+
+.contacts {
+  background: #212529;
+}
+
+ .input_custom {
+  background: none;
+  border-radius: 50px;
+  /* border: 2px solid;
+  border-image: linear-gradient(109deg, #FC4A1A -29.1%, #F7B733 97.76%);
+  border-image-slice: 1; */
+ }
+
+ .input_custom2 {
+  border-radius: 20px;
+  background: none;
+ }
+
+ .input_custom:focus {
+  background: none;
+  color: #fff;
+ }
+
+ .input_custom2:focus {
+  background: none;
+  color: #fff;
+ }
+
+ .input_custom::placeholder {
+  color: #fff;
+ }
+
+ .input_custom2::placeholder {
+  color: #fff;
+ }
+
+ .submit_button {
+  background: linear-gradient(109deg, #FC4A1A -29.1%, #F7B733 97.76%);
+  width: 160px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+ }
+
+ .submit_button:hover {
+  background: linear-gradient(109deg, #F7B733 -29.1%, #FC4A1A 97.76%);
+ }
+
+.footer {
+  background: linear-gradient(109deg, #FC4A1A -29.1%, #F7B733 97.76%);
+}
+
+ /* ############################################# Contacts page section end ############################################# */
 
 
+@media screen and (max-width: 768px) {
+  .portfolio_mb {
+    display: block;
+  }
+}
 
+@media screen and (max-width: 768px) {
+  .portfolio {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .portfolio_mb {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .blogs_mb {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .blogs {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .blogs_mb {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .blogs {
+    display: block;
+  }
+}
