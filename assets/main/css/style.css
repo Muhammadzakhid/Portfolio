@@ -128,18 +128,6 @@
   background: #212529;
 }
 
- .input_custom {
-  background: none;
-  border-radius: 50px;
-  /* border: 2px solid;
-  border-image: linear-gradient(109deg, #FC4A1A -29.1%, #F7B733 97.76%);
-  border-image-slice: 1; */
- }
-
- .input_custom2 {
-  border-radius: 20px;
-  background: none;
- }
 
  .input_custom:focus {
   background: none;
@@ -174,6 +162,28 @@
 .footer {
   background: linear-gradient(109deg, #FC4A1A -29.1%, #F7B733 97.76%);
   border-radius: 20px;
+}
+
+.input_custom {
+  background: none ;
+  padding: 0.5rem;
+  border: double 5px transparent;
+  border-radius: 50px;
+  background-image: linear-gradient( #212529, #212529), linear-gradient(109deg, #FC4A1A -29.1%, #F7B733 97.76%);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  color: white;
+}
+
+.input_custom2 {
+  background: none ;
+  padding: 0.5rem;
+  border: double 5px transparent;
+  border-radius: 20px;
+  background-image: linear-gradient( #212529, #212529), linear-gradient(109deg, #FC4A1A -29.1%, #F7B733 97.76%);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  color: white;
 }
 
  /* ############################################# Contacts page section end ############################################# */
@@ -228,4 +238,15 @@
   .blogs {
     display: block;
   }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .email_text {
+    font-size: small;
+  }  
+}
+
+@media screen and (max-width: 1024px) {
+  
 }
