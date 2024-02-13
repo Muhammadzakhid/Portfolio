@@ -248,5 +248,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  
+  .service_tite{
+    font-size: larger;
+  }
 }
