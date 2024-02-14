@@ -40,11 +40,6 @@
   border-radius: 50px 50px 50px 0px;
 }
 
-.custom_btn1:hover {
-  background: linear-gradient(109deg, #F7B733 -29.1%, #FC4A1A 97.76%);
-  color: #fff;
-}
-
 .main_title {
   color: #fff;
   font-weight: 700;
@@ -65,6 +60,11 @@
 .custom_btn:hover {
   background: linear-gradient(109deg, #F7B733 -29.1%, #FC4A1A 97.76%);
   color: #fff;
+}
+
+
+.icon_imgs {
+  cursor: default;
 }
 
  /* ############################################# Home page section end ############################################# */
