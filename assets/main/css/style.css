@@ -187,7 +187,6 @@
 
  /* ############################################# Contacts page section end ############################################# */
 
-
 @media screen and (max-width: 768px) {
   .portfolio_mb {
     display: block;
@@ -242,7 +241,7 @@
 
 @media screen and (max-width: 1024px) {
   .email_text {
-    font-size: small;
+    font-size: large;
   }  
 }
 
